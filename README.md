@@ -41,7 +41,7 @@ DATABASE_URL="postgresql://KULLANICI:SIFRE@localhost:5432/Task?schema=public"
 **CORS:** Tarayıcıdan farklı bir origin’deki frontend (ör. Next.js) bu API’ye istek atacaksa `.env` içinde izin verilen adresleri virgülle yaz:
 
 ```env
-CORS_ORIGINS=https://ornek-prod.com,http://localhost:3005
+CORS_ORIGINS=https://ornek-prod.com,http://localhost:3001
 ```
 
 - **`CORS_ORIGINS` tanımlı değil veya boşsa** uygulama `origin: true` kullanır (yerel denemede genelde yeterli).
